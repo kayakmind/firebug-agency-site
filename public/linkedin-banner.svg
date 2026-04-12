@@ -1,0 +1,114 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1584" height="396" viewBox="0 0 1584 396">
+  <defs>
+    <radialGradient id="glow1" cx="25%" cy="50%" r="40%">
+      <stop offset="0%" stop-color="#FF6B4A" stop-opacity="0.08"/>
+      <stop offset="100%" stop-color="#1A1A2E" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glow2" cx="75%" cy="50%" r="35%">
+      <stop offset="0%" stop-color="#4A3AFF" stop-opacity="0.06"/>
+      <stop offset="100%" stop-color="#1A1A2E" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="divLine" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#1A1A2E"/>
+      <stop offset="20%" stop-color="rgba(255,255,255,0.06)"/>
+      <stop offset="50%" stop-color="#FF6B4A" stop-opacity="0.15"/>
+      <stop offset="80%" stop-color="rgba(255,255,255,0.06)"/>
+      <stop offset="100%" stop-color="#1A1A2E"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1584" height="396" fill="#1A1A2E"/>
+  <rect width="1584" height="396" fill="url(#glow1)"/>
+  <rect width="1584" height="396" fill="url(#glow2)"/>
+
+  <!-- Subtle grid dots -->
+  <g opacity="0.03" fill="#F5F0EB">
+    <circle cx="100" cy="80" r="1.5"/>
+    <circle cx="200" cy="80" r="1.5"/>
+    <circle cx="300" cy="80" r="1.5"/>
+    <circle cx="400" cy="80" r="1.5"/>
+    <circle cx="500" cy="80" r="1.5"/>
+    <circle cx="100" cy="160" r="1.5"/>
+    <circle cx="200" cy="160" r="1.5"/>
+    <circle cx="300" cy="160" r="1.5"/>
+    <circle cx="400" cy="160" r="1.5"/>
+    <circle cx="500" cy="160" r="1.5"/>
+    <circle cx="100" cy="240" r="1.5"/>
+    <circle cx="200" cy="240" r="1.5"/>
+    <circle cx="300" cy="240" r="1.5"/>
+    <circle cx="400" cy="240" r="1.5"/>
+    <circle cx="500" cy="240" r="1.5"/>
+    <circle cx="100" cy="320" r="1.5"/>
+    <circle cx="200" cy="320" r="1.5"/>
+    <circle cx="300" cy="320" r="1.5"/>
+    <circle cx="400" cy="320" r="1.5"/>
+    <circle cx="500" cy="320" r="1.5"/>
+    <circle cx="1084" cy="80" r="1.5"/>
+    <circle cx="1184" cy="80" r="1.5"/>
+    <circle cx="1284" cy="80" r="1.5"/>
+    <circle cx="1384" cy="80" r="1.5"/>
+    <circle cx="1484" cy="80" r="1.5"/>
+    <circle cx="1084" cy="160" r="1.5"/>
+    <circle cx="1184" cy="160" r="1.5"/>
+    <circle cx="1284" cy="160" r="1.5"/>
+    <circle cx="1384" cy="160" r="1.5"/>
+    <circle cx="1484" cy="160" r="1.5"/>
+    <circle cx="1084" cy="240" r="1.5"/>
+    <circle cx="1184" cy="240" r="1.5"/>
+    <circle cx="1284" cy="240" r="1.5"/>
+    <circle cx="1384" cy="240" r="1.5"/>
+    <circle cx="1484" cy="240" r="1.5"/>
+    <circle cx="1084" cy="320" r="1.5"/>
+    <circle cx="1184" cy="320" r="1.5"/>
+    <circle cx="1284" cy="320" r="1.5"/>
+    <circle cx="1384" cy="320" r="1.5"/>
+    <circle cx="1484" cy="320" r="1.5"/>
+  </g>
+
+  <!-- Divider line -->
+  <rect x="0" y="394" width="1584" height="2" fill="url(#divLine)"/>
+
+  <!-- Match icon -->
+  <g transform="translate(680, 40) scale(0.65)">
+    <rect x="27" y="50" width="6" height="88" rx="3" fill="#8888AA"/>
+    <ellipse cx="30" cy="50" rx="9" ry="10" fill="#2A1A12"/>
+    <path d="M30 4 C30 4, 42 18, 43 30 C44 42, 38 48, 30 50 C22 48, 16 42, 17 30 C18 18, 30 4, 30 4Z" fill="#FF6B4A" opacity="0.9"/>
+    <path d="M30 18 C30 18, 37 26, 37 33 C37 39, 34 44, 30 46 C26 44, 23 39, 23 33 C23 26, 30 18, 30 18Z" fill="#FFAA3B" opacity="0.9"/>
+    <ellipse cx="30" cy="40" rx="4" ry="6" fill="#FFE4A0" opacity="0.8"/>
+  </g>
+
+  <!-- Wordmark -->
+  <text x="720" y="195" font-family="'Space Mono', 'SF Mono', 'Courier New', monospace" font-size="28" font-weight="700" letter-spacing="5" text-anchor="start" fill="#F5F0EB" text-transform="uppercase">
+    <tspan>FIRE</tspan><tspan fill="#FF6B4A">BUG</tspan>
+  </text>
+
+  <!-- Tagline -->
+  <text x="792" y="235" font-family="'Space Mono', 'SF Mono', 'Courier New', monospace" font-size="12" letter-spacing="3" text-anchor="middle" fill="#8888AA">
+    YOUR AI PERSON
+  </text>
+
+  <!-- Services tags - left side -->
+  <g opacity="0.6">
+    <rect x="80" y="310" rx="14" ry="14" width="130" height="28" fill="none" stroke="rgba(255,255,255,0.08)" stroke-width="1"/>
+    <text x="145" y="329" font-family="'Space Mono', 'SF Mono', 'Courier New', monospace" font-size="9" letter-spacing="1" text-anchor="middle" fill="#8888AA">AI STRATEGY</text>
+
+    <rect x="224" y="310" rx="14" ry="14" width="170" height="28" fill="none" stroke="rgba(255,255,255,0.08)" stroke-width="1"/>
+    <text x="309" y="329" font-family="'Space Mono', 'SF Mono', 'Courier New', monospace" font-size="9" letter-spacing="1" text-anchor="middle" fill="#8888AA">IMPLEMENTATION</text>
+
+    <rect x="408" y="310" rx="14" ry="14" width="180" height="28" fill="none" stroke="rgba(255,255,255,0.08)" stroke-width="1"/>
+    <text x="498" y="329" font-family="'Space Mono', 'SF Mono', 'Courier New', monospace" font-size="9" letter-spacing="1" text-anchor="middle" fill="#8888AA">WORKFLOW DESIGN</text>
+  </g>
+
+  <!-- Services tags - right side -->
+  <g opacity="0.6">
+    <rect x="920" y="310" rx="14" ry="14" width="180" height="28" fill="none" stroke="rgba(255,255,255,0.08)" stroke-width="1"/>
+    <text x="1010" y="329" font-family="'Space Mono', 'SF Mono', 'Courier New', monospace" font-size="9" letter-spacing="1" text-anchor="middle" fill="#8888AA">AGENT BUILDING</text>
+
+    <rect x="1114" y="310" rx="14" ry="14" width="150" height="28" fill="none" stroke="rgba(255,255,255,0.08)" stroke-width="1"/>
+    <text x="1189" y="329" font-family="'Space Mono', 'SF Mono', 'Courier New', monospace" font-size="9" letter-spacing="1" text-anchor="middle" fill="#8888AA">AUTOMATION</text>
+
+    <rect x="1278" y="310" rx="14" ry="14" width="220" height="28" fill="none" stroke="rgba(255,255,255,0.08)" stroke-width="1"/>
+    <text x="1388" y="329" font-family="'Space Mono', 'SF Mono', 'Courier New', monospace" font-size="9" letter-spacing="1" text-anchor="middle" fill="#8888AA">ONGOING GUIDANCE</text>
+  </g>
+</svg>

@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="400" viewBox="0 0 400 400">
+  <defs>
+    <radialGradient id="bgGlow" cx="50%" cy="45%" r="50%">
+      <stop offset="0%" stop-color="#FF6B4A" stop-opacity="0.07"/>
+      <stop offset="100%" stop-color="#1A1A2E" stop-opacity="0"/>
+    </radialGradient>
+    <clipPath id="circle">
+      <circle cx="200" cy="200" r="200"/>
+    </clipPath>
+  </defs>
+
+  <!-- Circular background -->
+  <circle cx="200" cy="200" r="200" fill="#1A1A2E"/>
+  <circle cx="200" cy="200" r="200" fill="url(#bgGlow)"/>
+
+  <!-- Subtle ring -->
+  <circle cx="200" cy="200" r="190" fill="none" stroke="rgba(255,255,255,0.04)" stroke-width="1"/>
+
+  <!-- Match icon - centered and scaled -->
+  <g transform="translate(155, 60) scale(1.5)">
+    <rect x="27" y="50" width="6" height="88" rx="3" fill="#8888AA"/>
+    <ellipse cx="30" cy="50" rx="9" ry="10" fill="#2A1A12"/>
+    <path d="M30 4 C30 4, 42 18, 43 30 C44 42, 38 48, 30 50 C22 48, 16 42, 17 30 C18 18, 30 4, 30 4Z" fill="#FF6B4A" opacity="0.9"/>
+    <path d="M30 18 C30 18, 37 26, 37 33 C37 39, 34 44, 30 46 C26 44, 23 39, 23 33 C23 26, 30 18, 30 18Z" fill="#FFAA3B" opacity="0.9"/>
+    <ellipse cx="30" cy="40" rx="4" ry="6" fill="#FFE4A0" opacity="0.8"/>
+  </g>
+
+  <!-- Wordmark below match -->
+  <text x="200" y="330" font-family="'Space Mono', 'SF Mono', 'Courier New', monospace" font-size="24" font-weight="700" letter-spacing="4" text-anchor="middle" fill="#F5F0EB">
+    <tspan>FIRE</tspan><tspan fill="#FF6B4A">BUG</tspan>
+  </text>
+
+  <!-- Border ring -->
+  <circle cx="200" cy="200" r="198" fill="none" stroke="rgba(255,107,74,0.12)" stroke-width="1"/>
+</svg>
