@@ -18,8 +18,8 @@ export default function ServicesPage() {
       {/* How We Work */}
       <div className="section">
         <div className="section-label reveal">How we work</div>
-        <h2 className="section-title reveal d1">We don&apos;t do drive-bys.</h2>
-        <p className="section-desc reveal d2">Firebug is a retained advisory relationship, not a project shop. We embed with your team, learn your business, and stay with you as the landscape evolves. Here&apos;s what that looks like.</p>
+        <h2 className="section-title reveal d1">We go deep.</h2>
+        <p className="section-desc reveal d2">Whether it&apos;s a focused project or an ongoing partnership, we take the time to understand your business and build solutions that actually work. Here&apos;s what that looks like.</p>
 
         <div className="hw-row reveal d3">
           <div>
@@ -81,7 +81,7 @@ export default function ServicesPage() {
             <div className="hw-number">04</div>
             <div className="hw-title">We stay with you.</div>
             <div className="hw-text">
-              <p>AI moves fast. What works today might be obsolete in three months. That&apos;s why Firebug is a retained relationship — we keep monitoring the landscape, adjusting your strategy, and building new solutions as opportunities emerge.</p>
+              <p>AI moves fast. What works today might be obsolete in three months. That&apos;s why we stay connected — monitoring the landscape, adjusting your strategy, and building new solutions as opportunities emerge.</p>
               <p>You always have someone watching the horizon for you.</p>
             </div>
           </div>
@@ -154,7 +154,7 @@ export default function ServicesPage() {
       {/* Pricing */}
       <div className="section" id="pricing">
         <div className="section-label reveal">Pricing</div>
-        <h2 className="section-title reveal d1">Simple, transparent, built for the long haul.</h2>
+        <h2 className="section-title reveal d1">Simple, transparent, flexible.</h2>
         <p className="section-desc reveal d2">Three ways to work together. Most clients start with Spark and move to Flame once they see what&apos;s possible.</p>
         <div className="tiers-grid">
           <div className="tier reveal d3">
@@ -223,7 +223,7 @@ export default function ServicesPage() {
           </div>
           <div className="faq-item reveal d6">
             <div className="faq-q">Can I cancel anytime?</div>
-            <div className="faq-a">Yes. No long-term contracts. We work month to month. If we&apos;re not providing value, you shouldn&apos;t be paying us. That said, the relationship gets more valuable over time as we learn your business.</div>
+            <div className="faq-a">Yes. No long-term commitments required. We structure things to fit your needs — and if we&apos;re not providing value, you shouldn&apos;t be paying us.</div>
           </div>
         </div>
       </div>

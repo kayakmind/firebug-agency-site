@@ -61,7 +61,7 @@ export default function Home() {
       {/* Pricing */}
       <section id="pricing">
         <div className="section-label reveal">Pricing</div>
-        <h2 className="section-title reveal d1">Simple, transparent,<br />built for the long haul.</h2>
+        <h2 className="section-title reveal d1">Simple, transparent,<br />flexible.</h2>
         <p className="section-desc reveal d2">Three ways to work together. Most clients start with Spark and move to Flame once they see what&apos;s possible.</p>
         <div className="tiers-grid">
           <div className="tier reveal d3">
