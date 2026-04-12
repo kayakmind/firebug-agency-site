@@ -38,9 +38,6 @@ export default function Nav() {
           </Link>
         </li>
         <li>
-          <Link href="/services#pricing">Pricing</Link>
-        </li>
-        <li>
           <Link
             href="/about"
             className={pathname === "/about" ? "active" : ""}

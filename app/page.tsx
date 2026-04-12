@@ -58,54 +58,6 @@ export default function Home() {
 
       <Divider />
 
-      {/* Pricing */}
-      <section id="pricing">
-        <div className="section-label reveal">Pricing</div>
-        <h2 className="section-title reveal d1">Simple, transparent,<br />flexible.</h2>
-        <p className="section-desc reveal d2">Three ways to work together. Most clients start with Spark and move to Flame once they see what&apos;s possible.</p>
-        <div className="tiers-grid">
-          <div className="tier reveal d3">
-            <div className="tier-name">Spark</div>
-            <div className="tier-price">$500/month</div>
-            <div className="tier-desc">Your AI pulse check. For organizations that aren&apos;t ready to build yet but need someone watching the horizon.</div>
-            <ul className="tier-features">
-              <li>One strategy call per month</li>
-              <li>Monthly landscape brief</li>
-              <li>Async access for quick questions</li>
-              <li>Tool &amp; workflow recommendations</li>
-            </ul>
-            <a href="#contact" className="tier-cta tier-cta-outline">Get started</a>
-          </div>
-          <div className="tier tier-featured reveal d4">
-            <div className="tier-badge">Most popular</div>
-            <div className="tier-name">Flame</div>
-            <div className="tier-price">$1,500/month</div>
-            <div className="tier-desc">Your AI partner. I build the workflows, set up the tools, and keep your strategy sharp as things evolve.</div>
-            <ul className="tier-features">
-              <li>Everything in Spark</li>
-              <li>Hands-on implementation</li>
-              <li>Two strategy calls per month</li>
-              <li>Monthly priorities memo</li>
-              <li>Ongoing async access</li>
-            </ul>
-            <a href="#contact" className="tier-cta tier-cta-fill">Get started</a>
-          </div>
-          <div className="tier reveal d5">
-            <div className="tier-name">Signal</div>
-            <div className="tier-price">Custom</div>
-            <div className="tier-desc">For bigger lifts. Full strategy development, team workshops, or custom agent builds — scoped to your needs.</div>
-            <ul className="tier-features">
-              <li>Full AI strategy development</li>
-              <li>Team training workshops</li>
-              <li>Custom agent &amp; automation builds</li>
-              <li>Intensive project sprints</li>
-            </ul>
-            <a href="#contact" className="tier-cta tier-cta-outline">Let&apos;s scope it</a>
-          </div>
-        </div>
-      </section>
-
-      <Divider />
 
       {/* About */}
       <section id="about">
