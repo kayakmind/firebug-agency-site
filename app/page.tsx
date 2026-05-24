@@ -20,7 +20,7 @@ export default function Home() {
           </svg>
         </div>
         <h1 className="reveal d2">We&apos;re your <em>AI person.</em></h1>
-        <p className="hero-sub reveal d3">AI moves fast — new tools, new capabilities, new best practices, sometimes weekly. You don&apos;t have time to keep up. We do. We provide ongoing guidance and hands-on implementation so you stay ahead instead of scrambling to catch up.</p>
+        <p className="hero-sub reveal d3">AI moves fast. New tools, new capabilities, new best practices, sometimes weekly. You don&apos;t have time to keep up. We do. We provide ongoing guidance and hands-on implementation so you stay ahead instead of scrambling to catch up.</p>
         <a href="#contact" className="hero-cta reveal d4">Start a conversation</a>
       </section>
 
