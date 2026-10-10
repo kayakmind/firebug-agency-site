@@ -315,6 +315,55 @@ governance let a lean team keep producing without us); "AI as weather" (people a
 are both asking who you are; the answer had better be the same everywhere) as one possible
 line in the Brand group; FAQ with pricing; "Book a 30-minute call."
 
+## Identity decisions (revised identity, 2026-10-09)
+
+Brief: revised, not different. Keep the match and the wordmark structure; reconsider what
+surrounds them. Chris didn't love the dark site.
+
+**Process correction (2026-10-09).** The first three choices below were made by comparing
+single variables before a world was chosen. Chris asked to step back and run the identity the
+way an identity firm would. Design principles were set, three territories were built and
+compared as whole systems, and the earlier choices were treated as hypotheses. See
+`process.md` stage 3.
+
+**Design principles (approved).** Heat, not warmth · Ink on a surface · One hot thing per
+screen · Senior, not slick.
+
+**Territory (chosen): Studio.** Ink on white; the fire is the only color; type-first; hairline
+grids; generous air. Over Night wall (charcoal, poster type, paper stencil; most street, risks
+the tech read) and Signal (vermilion as a field, Swiss poster, italic serif; strongest
+impression, most designed). The earlier single-variable choices (white, vermilion, Bricolage)
+are confirmed by the territory choice and now refined inside it.
+
+| Decision | Choice | Notes |
+|---|---|---|
+| Ground | Pure white `#FFFFFF` | Flipped from Midnight. Warm White paper rejected as overused. |
+| Ink | Soot `#1C1A1F` (decided 2026-10-10) | Replaces Midnight as the ink and the single dark band. Near-black with a faint warm-violet cast; reads as ink, not navy. Neutral scale: #FFFFFF · #F5F4F6 · #E4E2E6 · #BDB9C1 · #8E8A91 · #4F4B54 · #1C1A1F. Body text #4F4B54. Stick #8E8A91. Over Midnight (navy = tech) and #111111 (anonymous). |
+| Color rules (fixed) | Amber #FFAA3B and Core #FFE4A0 inside the flame only · functional: success #1F9D55, error #D92D20, warning #FFAA3B · proportion 85 white / 12 ink / 3 vermilion · at most one dark band per page · vermilion for buttons, "BUG," the emphasized word, links | |
+| Accent | Vermilion `#F2401C` | Replaces coral as the site accent ("BUG," emphasized word, buttons). Coral on Midnight read as dark-mode SaaS. Contrast on white 3.8:1: display and fills, large text; not small text. |
+| Flame | Vermilion outer, Amber `#FFAA3B` inner, cream `#FFE4A0` core | Outer flame recolored to the accent so mark and site agree. |
+| Mark | Stick + flame, **no head** | Every existing file had a brown head that vanished on Midnight; on white it showed and Chris preferred the headless read. Flame sits at the stick's tip. Brand files to be regenerated. |
+| Stick | Smoke `#8888AA` | Holds on white better than warm gray. Resolves the pending stick-color question. |
+| Headline face | Bricolage Grotesque, 800, tight tracking, opsz 96 | Chris picked Inter Tight first, then changed to Bricolage. Over Fraunces (too warm), Instrument Serif (every studio this year), Space Mono (reads as a terminal on white). |
+| Body face | Inter (proposed, pending) | Quiet partner for a headline face with personality. DM Sans acceptable alternative. |
+| Mono | Space Mono stays for wordmark, labels, buttons, footer | Identity role only; no longer headlines. |
+
+| Hero layout | Type first (C1) | "Light a fire." very large, two lines. Below it a 5/12 column (claim, paragraph, button) and a 7/12 image column; the stencil figure sits at the image's left edge beside the paragraph, fire runs right and bleeds off the page. Over "the wall" (full-width band) and "the split." |
+| Hero illustration | Stencil silhouette touching a match to the ground, fire spreading right | Placeholder only for now. 2026-10-10: Chris wants to explore a motion graphics / video treatment for the figure rather than a static drawing. Deferred to its own exploration; every screen until then carries the placeholder. |
+| Body face | Inter | 2026-10-10: approved with the type scale ("Looks good"). DM Sans dropped. |
+| Type scale | Display 64/112 · H1 40/64 · H2 28/40 · H3 19/22 · Claim 19/22 · Lead 17/19 · Body 15/17 · Small 13/14 · Label 11 · Button 12/13 · Footer 11 (phone/desktop) | Approved 2026-10-10. One vermilion word allowed in Display and H1 only; H2 and below ink only. Mono uppercase, tracked, four words or fewer. Body under 70 characters a line. |
+| Vermilion per page | Home four touches (wordmark, "fire.", button, "impression."); every other page two or three | 2026-10-10, from the mobile screens. The 85/12/3 proportion made concrete. |
+| Dark band | One per page, optional. Home: the argument. About: the beliefs. Other pages none. | 2026-10-10. Reads as a pause on a phone, not weight. |
+| Mobile hero order | Text first (tagline, claim, lead, button), image second | 2026-10-10. The tagline is the first thing on screen. Desktop keeps C1. |
+| Logo system | Approved 2026-10-10 | Mark: stick + flame, no head, unit x = flame width (flame 1.8x tall, stick 3.5x, stick width 0.23x). Wordmark Space Mono 700, 0.18em, BUG always vermilion; "Agency" only as a descriptor. Three lockups: horizontal (mark 3 cap heights, 0.5x gap, baseline on stick foot), stacked (0.4x gap), mark alone (65% of frame). Clear space 1x. Minimums 24/44/16 px. Core drops below 32 px, one-color flame below 20 px, favicon is the flame alone. Four color versions; the flame never recolors; stick goes Ash on Soot. One-color white on a vermilion field settles the parked coral-background question. Files regenerated from `brand/logo/make-logos.js`. |
+| Stick | Smoke `#8E8A91` (Soot scale), Ash `#BDB9C1` on dark | Supersedes the Smoke `#8888AA` row above, which belonged to the Midnight scale. |
+
+Companion session files: `.superpowers/brainstorm/63135-1791583476/content/` (accent-color-v2,
+type, hero-layout-v3, territories, color-system). Remote-viewable artifacts (2026-10-10):
+type scale https://claude.ai/artifact/2rBeHRRkPLHmSUFiSfybMe · mobile screens (Home, What we do,
+About, Contact) https://claude.ai/artifact/Hw3cf1qaDk2EzwWKWdjjNK · logo system
+https://claude.ai/artifact/MAjuP7cGf4AsREC4kmgE4p
+
 ## Candidate lines (not decided)
 
 Second line under the tagline. Direction set 2026-10-08: name the benefit (speed), not the
@@ -363,9 +412,12 @@ spread and momentum, not destruction. Logo at rest, hero in motion.
 
 ## Parked
 
+- Hero figure as motion graphics / video (Chris, 2026-10-10): a short loop of the figure
+  touching the match down and the fire taking off, instead of a static stencil. Explore after
+  the identity system is set; decide format (SVG/Lottie animation vs rendered video), length,
+  reduced-motion fallback (the static frame), and file weight. Placeholder until then.
 - Proof points / reasons to believe (client work, owned properties, process, the site itself)
 - What's explicitly out of scope
-- Match-stick color (warm gray vs Smoke) and the coral-background logo variant
 - Relationship to "Your AI person" and Find/Build/Stay: retired, pending confirmation
 
 ## Site structure patterns (from Think, Riotters, DATT, Ogilvy; 2026-10-09)

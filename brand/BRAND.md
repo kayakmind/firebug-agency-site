@@ -198,121 +198,140 @@ Firebug speaks as **we**. The brand, not a person's name. Emails come from Fireb
 
 ## Color
 
-All values are exact. Do not substitute Tailwind defaults.
+All values are exact. Do not substitute Tailwind defaults. The identity direction is called Studio: white ground, ink on a surface, one hot thing per screen.
 
 ### Core
 
 | Role | Hex | CSS token | Use |
 |---|---|---|---|
-| Midnight | `#1A1A2E` | `--midnight` | Page background. The ground everything sits on. |
-| Hot Coral | `#FF6B4A` | `--coral` | Primary accent. Buttons, section labels, the emphasized word in a headline, "bug" in the wordmark, outer flame. |
-| Amber | `#FFAA3B` | `--amber` | Inner flame. Third-position icon tint. Never for text on Midnight. |
-| Electric | `#4A3AFF` | `--electric` | Second-position icon tint and subtle glow. Cool counterweight to the flame. |
-| Warm White | `#F5F0EB` | `--warm-white` | Headlines and primary text. Surface for the light-background logo variant. |
-| Smoke | `#8888AA` | `--smoke` | Body copy, captions, footer. Everything that should read second. |
+| White | `#FFFFFF` | `--white` | Page background. The ground everything sits on. |
+| Soot | `#1C1A1F` | `--soot` | Ink. Headlines, the single dark band, the one-color mark. Near-black with a faint warm-violet cast; reads as ink, not navy. |
+| Vermilion | `#F2401C` | `--vermilion` | The accent. Buttons, "BUG" in the wordmark, the one emphasized word in a Display or H1 line, links, the outer flame. |
 
-### Surfaces
+### Neutrals (generated from Soot)
 
 | Role | Hex | CSS token | Use |
 |---|---|---|---|
-| Deep | `#12121F` | `--deep` | One step below Midnight. Recessed areas. |
-| Card | `#222240` | `--card-bg` | Raised surfaces, one step above Midnight. |
-| Hairline | `rgba(255,255,255,0.06)` | `--card-border` | Borders and dividers on dark surfaces. |
+| Paper | `#F5F4F6` | `--paper` | Footer, form fields, the quietest tint. |
+| Hairline | `#E4E2E6` | `--hairline` | Rules, borders, dividers. |
+| Ash | `#BDB9C1` | `--ash` | Disabled text, the stick on Soot grounds, secondary text on Soot. |
+| Smoke | `#8E8A91` | `--smoke` | Captions, labels, the footer, the match stick. |
+| Body | `#4F4B54` | `--body` | Body copy. |
 
-### Tints
+### Flame only
 
-Icon backgrounds use the accent at 12% opacity: `rgba(255,107,74,0.12)`, `rgba(74,58,255,0.12)`, `rgba(255,170,59,0.12)`. Glows use Hot Coral at 6% to 8% in a radial gradient.
+| Part | Hex | CSS token |
+|---|---|---|
+| Outer flame | Vermilion `#F2401C` | `--vermilion` |
+| Inner flame | Amber `#FFAA3B` | `--amber` |
+| Core | `#FFE4A0` | `--core` |
 
-### Logo-only colors
+Amber and Core appear nowhere but inside the flame. Amber may double as the warning color.
 
-| Part | Hex |
-|---|---|
-| Match stick | `#C4B8A8` (warm gray, canonical) |
-| Match head | `#2A1A12` |
-| Flame core | `#FFE4A0` |
+### Functional
+
+Success `#1F9D55` · Error `#D92D20` · Warning `#FFAA3B`. Forms and system messages only; never decorative.
+
+### Rules
+
+- **Proportion.** About 85 white, 12 ink, 3 vermilion on any page.
+- **Vermilion budget.** Home: four touches (wordmark, the hero word, the button, the closing word). Every other page: two or three. Never two vermilion elements touching.
+- **One dark band per page, optional.** Home carries the argument in it; About carries the beliefs. Other pages have none. Text on Soot is white for headlines, Ash for body.
+- **No gradients, glows, or shadows.** Ink on a surface.
+- **Imagery** sits on white with no frame, or bleeds off the edge.
 
 ---
 
 ## Typography
 
-Two faces, each with one job. Both load from Google Fonts.
+Three faces, each with one job. All load from Google Fonts.
 
 | Face | Weights | CSS token | Used for |
 |---|---|---|---|
-| Space Mono | 400, 700 | `--font-mono` | Headlines, section labels, buttons, card titles, wordmark, footer. Anything that should feel deliberate. |
-| DM Sans | 300, 400, 500, 600 | `--font-sans` | Body copy, descriptions, captions. Anything that should feel easy to read. |
+| Bricolage Grotesque | 500, 700, 800 (variable, optical size 12 to 96) | `--font-display` | Display, headlines, claims. Anything that should feel deliberate. |
+| Inter | 400, 500, 600 | `--font-sans` | Lead, body, small. Anything that should feel easy to read. |
+| Space Mono | 400, 700 | `--font-mono` | Wordmark, labels, buttons, footer. Identity roles only; never a headline. |
 
-### Scale (desktop)
+### Scale
 
-| Style | Face | Size | Weight | Tracking | Line height | Color |
-|---|---|---|---|---|---|---|
-| Hero headline | Space Mono | 56px | 700 | -1px | 1.2 | Warm White, one phrase in Hot Coral |
-| Section title | Space Mono | 40px | 700 | 0 | 1.3 | Warm White |
-| CTA title | Space Mono | 44px | 700 | 0 | 1.3 | Warm White, one phrase in Hot Coral |
-| Card title | Space Mono | 15px | 700 | 0 | 1.4 | Warm White |
-| Section label | Space Mono | 11px | 400 | 4px, uppercase | 1.4 | Hot Coral |
-| Button | Space Mono | 13 to 14px | 400 | 2px, uppercase | 1 | Midnight on Hot Coral |
-| Hero body | DM Sans | 18px | 400 | 0 | 1.7 | Smoke |
-| Body | DM Sans | 17px | 400 | 0 | 1.7 | Smoke |
-| Card body | DM Sans | 14px | 400 | 0 | 1.6 | Smoke |
-| Footer | Space Mono | 11px | 400 | 2px | 1.4 | Smoke |
+| Role | Face | Weight | Phone | Desktop | Line | Tracking | Color |
+|---|---|---|---|---|---|---|---|
+| Display | Bricolage | 800 | 64 | 112 | 0.95 | -0.03em, opsz 96 | Soot, one word Vermilion allowed |
+| H1 | Bricolage | 800 | 40 | 64 | 1.0 | -0.025em | Soot, one word Vermilion allowed |
+| H2 | Bricolage | 800 | 28 | 40 | 1.05 | -0.02em | Soot only |
+| H3 | Bricolage | 700 | 19 | 22 | 1.15 | -0.015em, opsz 48 | Soot only |
+| Claim | Bricolage | 500 | 19 | 22 | 1.3 | -0.01em, opsz 24 | Soot |
+| Lead | Inter | 400 | 17 | 19 | 1.55 | 0 | Soot |
+| Body | Inter | 400 | 15 | 17 | 1.65 | 0 | Body `#4F4B54` |
+| Small | Inter | 400 | 13 | 14 | 1.55 | 0 | Body |
+| Label | Space Mono | 400 | 11 | 11 | 1.4 | 0.3em, uppercase | Vermilion |
+| Button | Space Mono | 400 | 12 | 13 | 1 | 0.14em, uppercase | White on Vermilion; Soot outline for secondary |
+| Footer | Space Mono | 400 | 11 | 11 | 1.4 | 0.12em, uppercase | Smoke |
 
-On mobile (under 768px) the hero headline drops to 36px, section titles to 24px, CTA titles to 28px. Body sizes do not change.
+### Rules
+
+- Display is reserved for the hero and the closing line. Nothing else gets it.
+- Headlines are sentence case. Mono is always uppercase and tracked, and never sets more than four words.
+- Body never exceeds 70 characters a line on desktop.
+- On a phone the hero runs text first (tagline, claim, lead, button), image second.
 
 ### Button
 
-Hot Coral fill, Midnight text, 2px Hot Coral border, 8px radius (6px in the nav). Hover inverts to transparent fill with Hot Coral text.
+Vermilion fill, white Space Mono text, 6px radius, 14px by 22px padding on a phone. Secondary: 2px Soot outline, Soot text. Hover darkens the fill; nothing glows.
 
 ---
 
 ## Logo
 
-An upright struck match. Hot Coral outer flame, Amber inner flame, a light yellow core, a dark brown head, a warm gray stick. The flame is the identity; the stick is what makes it a match.
+An upright match, already lit. Stick and flame, **no head**: the flame floats at the tip of the stick, which reads as a match that has caught rather than one waiting to be struck. Three flame colors outer to core (Vermilion, Amber, Core) and a Smoke stick.
+
+The flame's width is the unit **x**. Flame height is 1.8x, stick length 3.5x, stick width 0.23x. Everything in the system is measured in x.
 
 ### Wordmark
 
-Space Mono Bold, uppercase, tracked at 0.18em. "FIRE" takes the text color, "BUG" is always Hot Coral. In the files the wordmark is outlined to paths, so it renders without the font installed.
+Space Mono Bold, uppercase, tracked 0.18em. "FIRE" takes the text color, "BUG" is always Vermilion. In one-color versions the whole word is ink or white. "Agency" appears only where the full or legal name is needed (footer, documents), in the regular weight in Smoke, never in the lockup. The files have the wordmark outlined to paths, so it renders without the font installed.
 
-### Variants
+### Lockups
 
-| Variant | Use |
-|---|---|
-| Horizontal lockup on dark | Primary. Site nav, banners, anywhere on Midnight or Deep. |
-| Horizontal lockup on light | Warm White or white backgrounds. Proposals, print. |
-| Stacked lockup | Square placements, profile images, closing slides. |
-| Mark alone | Favicon, app icons, avatars, anything under 40px tall. |
-| Circle icon | The mark in a Midnight circle. Social avatars. |
+| Lockup | Construction | Use |
+|---|---|---|
+| Horizontal (primary) | Mark three cap heights tall, half an x from the wordmark, baseline on the stick's foot | Nav, email, documents |
+| Stacked | Mark centered above the wordmark, 0.4x gap | Covers, cards, social headers, end frames |
+| Mark alone | Centered at 65% of the frame's height | Avatar, favicon, app icon, watermark |
 
-A Hot Coral background variant is mentioned in the HQ notes but has not been designed. The flame disappears on coral, so it needs its own treatment before use.
+### Color versions
+
+| Version | Stick | Flame | Wordmark | Use |
+|---|---|---|---|---|
+| Full color on white | Smoke | Vermilion, Amber, Core | Soot, BUG Vermilion | The default. Almost every use. |
+| Full color on Soot | Ash | Vermilion, Amber, Core | White, BUG Vermilion | The dark band, avatars, dark decks. |
+| One color, ink | Soot | Soot | Soot | Engraving, stamps, fax, embossing. |
+| One color, white | White | White | White | On a Vermilion field or over photography. The only time the mark is all white. |
+
+The flame never recolors. Only the stick and the wordmark adapt to the ground.
 
 ### Rules
 
-- **Clear space.** At least the width of the match head on every side.
-- **Minimum size.** Mark alone at 24px tall. Horizontal lockup no smaller than 120px wide.
-- **Do not** stretch, rotate, recolor the flame, add a drop shadow, or set the wordmark in another face.
-- **Do not** place the mark on Hot Coral or Amber.
-
-### Stick color note
-
-The site currently draws the stick in two colors: `#C4B8A8` (warm gray) in the hero and `#8888AA` (Smoke) in the nav, favicon, and LinkedIn assets. The warm gray matches the brand description and reads better at large sizes. The files here use warm gray for standalone and dark-background lockups, and Smoke for the light-background and small-icon versions where it holds up better. Pick one when the next round of assets ships.
+- **Clear space.** 1x on every side.
+- **Minimum size.** Horizontal lockup 24px or 8mm tall. Stacked 44px or 14mm. Mark alone 16px or 5mm.
+- **Small marks simplify.** Below 32px the Core drops out. Below 20px the flame is one color. The favicon is the flame alone, no stick.
+- **Do not** bring back the head or the old coral, recolor the flame, tilt, stretch, add glow, shadow or gradient, set the wordmark in another face, place the mark inside a sentence, or box it on photography.
 
 ---
 
 ## Files
 
-All in `brand/logo/`. Each SVG has a matching PNG at 4x (8x for the mark alone, 2x for the circle icon).
+All in `brand/logo/`, generated from `brand/logo/make-logos.js` (run `node make-logos.js <outdir>`; PNGs are rendered from the SVGs with puppeteer). Edit the generator, not the files.
 
 | File | What it is |
 |---|---|
-| `firebug-mark` | Match alone, transparent, 60x140 box. |
-| `firebug-icon-circle` | Match in a Midnight circle, 512px. Same geometry as the site favicon. |
-| `firebug-lockup-horizontal-on-dark` | Mark plus wordmark, transparent, Warm White text. |
-| `firebug-lockup-horizontal-on-light` | Mark plus wordmark, transparent, Midnight text. |
-| `firebug-lockup-horizontal-midnight-bg` | Same as on-dark with a Midnight background baked in. |
-| `firebug-lockup-stacked-on-dark` | Stacked, transparent, Warm White text. |
-| `firebug-lockup-stacked-on-light` | Stacked, transparent, Midnight text. |
-| `firebug-lockup-stacked-midnight-bg` | Stacked with a Midnight background baked in. |
+| `firebug-mark-{full,dark,ink,white}` | Mark alone with 1x clear space. SVG and 400px PNG. |
+| `firebug-lockup-horizontal-{full,dark,ink,white}` | Horizontal lockup with 1x clear space. SVG and 1200px PNG. The dark PNG has the Soot ground baked in; the SVG is transparent. |
+| `firebug-lockup-stacked-{full,dark,ink,white}` | Stacked lockup. SVG and 1000px PNG. |
+| `firebug-avatar-soot-square`, `firebug-avatar-soot-circle`, `firebug-avatar-white-square` | Avatars, 1024px. |
+| `firebug-favicon` | Flame alone. SVG, 32px and 16px PNG. |
+| `firebug-og-1200x630` | Share card: stacked lockup on white. |
 
-Existing assets in `public/`: `favicon.svg`, `linkedin-banner.svg` and `.png` (1584x396), `linkedin-profile.svg` and `.png` (400x400).
+`public/favicon.svg`, `public/linkedin-banner.*` and `public/linkedin-profile.*` still carry the old mark and are replaced at the site build stage.
 
 The design tokens live in `app/globals.css` under `:root`. Fonts load in `app/layout.tsx`.
