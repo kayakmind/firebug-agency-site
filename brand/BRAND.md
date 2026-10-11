@@ -121,6 +121,8 @@ Section headline on Home and What we do: **If this is you, we should talk.** Lab
 
 ### Service groups and belief lines
 
+Section headline on What we do: **Seven disciplines. One standard.** Label above it: "Everything we do."
+
 | Group | Belief line | Services |
 |---|---|---|
 | **Strategy** | Everything else is downstream of this. | Research and insights · Positioning · Brand architecture and portfolio · Naming · Purpose, vision, values · Messaging platform · Voice and tone · Brand governance · Marketing strategy · Go-to-market and launch plans · Channel and campaign planning · Annual marketing plans |
