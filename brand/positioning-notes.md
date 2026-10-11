@@ -251,7 +251,8 @@ papers · Sales enablement · Newsletters · Podcasts · SEO/AEO content
 creative · Influencer and creator programs · Paid social · Social listening · Studios/production
 
 **Leadership (name TBD).** The retainer: Firebug as the client's senior brand and marketing
-lead. The fractional-CMO market, without necessarily using the phrase.
+lead. The fractional-CMO market, without necessarily using the phrase. *Superseded 2026-10-11:
+folded into the Marketing systems group as the "Run it" mode. See Site decisions.*
 
 **Public relations (backup, not forefronted).** PR strategy · Media relations · Press
 materials · Announcements · Executive visibility. Available; not a headline group.
@@ -269,7 +270,8 @@ lines (PR's dropped); footer list ends with Public relations (demoted, not cut).
 **Status 2026-10-09: messaging platform complete.** BRAND.md is now the source of truth for
 positioning, messaging, offer, beliefs, and voice. This file remains the decision record.
 Still pending: Chris bio content, leadership group name, email address, proof points,
-fixed-price entry product, match-stick color, coral logo variant.
+fixed-price entry product, match-stick color, coral logo variant. *(As of 2026-10-11: group
+name, stick color and coral variant are settled; bio, email, proof points and entry product remain.)*
 
 ### Category label (decided 2026-10-09)
 
@@ -378,8 +380,11 @@ chapters. For a larger client the strategy splits out as its own stage 1 and 2 d
 
 | Decision | Status | Notes |
 |---|---|---|
-| Sitemap | Approved 2026-10-10 | Four pages: Home `/`; What we do `/what-we-do` (301 from `/services`); About `/about`; Let's talk `/contact`. Nav: What we do · About · Let's talk (button). Footer: six disciplines, email, LinkedIn, copyright. `/snapshot` and `/assessment` retired (AI-named); their `submit-lead` API is reused by the contact form. Work/Proof page parked until there is proof. No pricing page. No privacy page yet. |
-| Home wireframe | Proposed 2026-10-10 | Seven blocks: 01 Hero (text first, figure second, ground with ember) · 02 Argument band (the one dark band) · 03 Four moments as numbered tiles, linking to What we do · 04 Range: "One story, told in every language" with six groups and shortened belief lines · 05 Proof, position reserved, empty at launch · 06 Close (shared component across pages) · 07 Footer. Open: moments section headline "If this is you, we should talk." (new line) vs label only; whether block 04 stays given the footer list. https://claude.ai/artifact/MtA7QPYEFWAmN6pZzqdhaU |
+| Sitemap | Approved 2026-10-10 | Four pages: Home `/`; What we do `/what-we-do` (301 from `/services`); About `/about`; Let's talk `/contact`. Nav: What we do · About · Let's talk (button). Footer: seven disciplines (revised 2026-10-11), email, LinkedIn, copyright. `/snapshot` and `/assessment` retired (AI-named); their `submit-lead` API is reused by the contact form. Work/Proof page parked until there is proof. No pricing page. No privacy page yet. |
+| Marketing systems (new group) | Approved 2026-10-11 | Seventh service group, absorbing the pending "Leadership" group. The third level ("the reach") made into a product: we build the client's marketing system, run it as their team, or both. Line order always "Build it. Run it. Or both." Belief line: "A marketing system powered by AI, run by a small team, owned by you." Short form for Home: "Powered by AI. Run by you. Yours to keep." Extends moment four. Proof point: Chris's systems background in the About bio. Fractional-CMO phrase stays where buyers search, never as a name. Copy in BRAND.md, What we do. |
+| AI named, once | Approved 2026-10-11 | The one exception to voice rule 1. In the Marketing systems group the technology is the product, so "AI" is said plainly, once in the belief line and once in the group copy. The belief line is the only place AI appears on Home. Everywhere else the rule holds. Decided against "technology-empowered" and similar: a hedge reads as coyness in the one line meant to say what's different. |
+| Strategy group | Applied 2026-10-11, confirm | Group one renamed "Brand strategy" to "Strategy" and extended with marketing strategy, go-to-market and launch plans, channel and campaign planning, annual plans. Reads "Brand and marketing strategy" in the footer and directories. Chris asked for marketing strategy to be an explicit offering; the rename was Claude's recommendation and is easy to reverse. |
+| Home wireframe | Proposed 2026-10-10, revised 2026-10-11 (seven groups in block 04, footer list updated) | Seven blocks: 01 Hero (text first, figure second, ground with ember) · 02 Argument band (the one dark band) · 03 Four moments as numbered tiles, linking to What we do · 04 Range: "One story, told in every language" with six groups and shortened belief lines · 05 Proof, position reserved, empty at launch · 06 Close (shared component across pages) · 07 Footer. Open: moments section headline "If this is you, we should talk." (new line) vs label only; whether block 04 stays given the footer list. https://claude.ai/artifact/MtA7QPYEFWAmN6pZzqdhaU |
 
 ## Candidate lines (not decided)
 
@@ -437,6 +442,32 @@ spread and momentum, not destruction. Logo at rest, hero in motion.
 - Proof points / reasons to believe (client work, owned properties, process, the site itself)
 - What's explicitly out of scope
 - Relationship to "Your AI person" and Find/Build/Stay: retired, pending confirmation
+
+## Reference: what the market calls "we build your marketing capability" (2026-10-11)
+
+Searched before naming the Marketing systems group. Five vocabularies compete:
+
+- **In-housing / in-house agency.** The industry's term for brands bringing agency work
+  inside. ANA 2023: 82% of major brands have in-house agencies (42% in 2008). AAR and Deloitte
+  Digital sell "in-housing consultancy." Right idea; jargon, and overshoots a small client.
+- **Marketing operations (MarOps, RevOps).** Established, enterprise B2B, means martech
+  plumbing (automation platforms, CRM, attribution). Pedowitz Group, TripleDart. Not our register.
+- **Marketing operating system / "marketing OS."** The 2026 phrase. MarTech's seven layers
+  (workflow, data, content and assets, governance, agents, activation, measurement). A firm
+  called Digital.Marketing launched "AI Marketing OS" in October 2026, pitched as reducing
+  agency dependency. Crowded and software-flavored.
+- **Build, operate, transfer.** Outsourcing-industry model; maps exactly to our three modes.
+  Useful as the internal frame, too cold to say.
+- **Engines** (content, growth, revenue). Generic.
+
+The finding that shaped the offer: 41% of CMOs who in-housed plan to re-outsource, so the
+market lands on hybrid. "Or both" leads.
+
+Sources: brixongroup.com (in-house vs agency vs hybrid) · basis.com (in-housing trend) ·
+digiday.com (consultancies and in-housing) · aargroup.co.uk/brands/design/inhousing ·
+martech.org/the-7-layers-of-an-ai-ready-marketing-operating-system ·
+news.marketersmedia.com (Digital.Marketing AI Marketing OS) · pedowitzgroup.com ·
+tripledart.com/saas-markops-agency · directiveconsulting.com (agencies with proprietary AI).
 
 ## Site structure patterns (from Think, Riotters, DATT, Ogilvy; 2026-10-09)
 
