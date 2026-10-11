@@ -152,6 +152,8 @@ Group one is "Strategy," not "Brand strategy," because it now covers marketing s
 
 **Entry offer.** A free 30-minute conversation, named and bounded, "no pitch deck, no pressure." A fixed-price first product (brand snapshot or audit) is under consideration.
 
+**Let's talk page (approved 2026-10-11).** Headline: **Start with a conversation.** Copy: "Thirty minutes, free, about where you're headed and how fast you want to get there. No pitch deck, no pressure. Tell us a little below and we'll reply within one business day." Form: Name, Email, Organization (optional), "Which sounds most like you?" with the four moments in the first person plural ("Something new is coming." · "We've changed. Our brand hasn't." · "We have something to say." · "Our team needs more than it can make." · "Something else.") and "Anything you'd like us to know?" (optional). Button: Send. Under it: "We'll reply within one business day. Your details go to us and nowhere else." After sending: **Got it.** "We'll reply within one business day. In the meantime, here's how an engagement runs." (links to How it works on About). Direct block, label "Or skip the form": email, LinkedIn, and "Email is read by the same person who'd be leading your work." No close block on this page. The reply promise is one business day until Chris sets otherwise.
+
 ---
 
 ## Beliefs (About page)
