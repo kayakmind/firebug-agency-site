@@ -156,6 +156,8 @@ Group one is "Strategy," not "Brand strategy," because it now covers marketing s
 
 ## Beliefs (About page)
 
+About page headline: **Small on purpose.** (approved 2026-10-11). Under it, the plain answer: the one sentence as the lead, the paragraph as body.
+
 Opener: *"The mind is not a vessel to be filled, but a fire to be kindled."* Plutarch, *On Listening to Lectures*. Credit Plutarch; it is often misattributed to Yeats or Socrates.
 
 **Great ideas come from people.** The spark, the judgment, the taste: those are human, and they always will be. Everything after the idea is production, and production should be fast.
@@ -166,7 +168,14 @@ Opener: *"The mind is not a vessel to be filled, but a fire to be kindled."* Plu
 
 **The senior person does the work.** Not oversees. Does. The strategist you meet on the first call makes the decisions on the last day, and answers your email in between.
 
-**Who you'll work with.** Firebug speaks as "we." Chris Emery is named on the About page only, in third person, four sentences: current role and the organizations it covers; background in communications strategy, science journalism, and running brand and comms for a research institution; the systems side (has designed and run content and production systems for real publishing brands, which is where the speed comes from, and the proof point for Marketing systems); optionally why Firebug exists. Bio content pending.
+**Who you'll work with.** Firebug speaks as "we." Chris Emery is named on the About page only, in third person, four sentences: current role and the organizations it covers; background in communications strategy, science journalism, and running brand and comms for a research institution; the systems side (has designed and run content and production systems for real publishing brands, which is where the speed comes from, and the proof point for Marketing systems); optionally why Firebug exists. Bio content pending. Closing line under the bio (approved 2026-10-11): "Chris leads every Firebug engagement and does the work. You will not be handed off."
+
+**How it works (About page, approved 2026-10-11).** Headline: **A conversation, then the work.** Four steps, always in this order:
+
+1. **A conversation.** Thirty minutes, free, about where you're headed. No pitch deck, no pressure.
+2. **A brief.** What we heard, what we'd do, what it costs, and when. One page you can say yes to.
+3. **The work.** You see stages and decisions, never the production between them. The senior person is in every one.
+4. **The handoff.** Files, guidelines, and whatever we built, in your hands and yours to keep.
 
 ---
 
