@@ -281,6 +281,39 @@ Vermilion fill, white Space Mono text, 6px radius, 14px by 22px padding on a pho
 
 ---
 
+## Layout and devices
+
+### Grid
+
+| | Columns | Gutter | Margin | Max width |
+|---|---|---|---|---|
+| Phone | 4 | 16px | 20px | |
+| Desktop | 12 | 24px | 48px | 1200px |
+
+Running text never spans more than five desktop columns (the 70-character line). The hero image takes seven and bleeds off the right edge. Sections sit 96px apart on desktop, 64px on a phone, with a hairline between them. Spacing scale, base 4: 4, 8, 12, 16, 24, 32, 48, 64, 96, 128.
+
+### Devices
+
+The site is drawn with lines, numbers, and words. No icons, no cards, no decoration.
+
+| Device | Spec | Use |
+|---|---|---|
+| Hairline | 1px `#E4E2E6` | Section rules, dividers, borders, fields. |
+| The ground | 1.5px Soot, once per page, under the hero, with an ember at its right end | The line the fire sits on. The only rule in Soot. |
+| The ember | 7px Vermilion dot | Active nav item, current step, the one live item in a list. The only icon in the system. |
+| Label | Space Mono 11, 0.3em, uppercase, Vermilion | Opens a section. |
+| Number | Space Mono, two digits, Vermilion | Items in a series. Replaces pictograms. |
+| The hot word | One Vermilion word, always the last word of a Display or H1 line | Never a phrase, never two in a line, never H2 or below. |
+| The band | Full bleed Soot, white headline, Ash body, one per page at most | Home: the argument. About: the beliefs. Never holds an image; no vermilion inside except a button. |
+| Buttons | Primary: Vermilion fill, white mono. Secondary: 2px Soot outline. Tertiary: mono with a 2px Vermilion underline | Three, no more. |
+| Links | Ink text, 1.5px Vermilion underline, 3px offset | In running text. |
+| Fields | Single hairline below, Soot; 2px Vermilion on focus; mono label above | Forms ask for the client's moment, not a service. |
+| Images | On white, no frame; bleed one edge or align to the grid with a hairline above and below; or a pull quote instead | Photographs of the work. The hero figure is the only illustration. |
+
+**Don't.** Icons for services. Cards with shadows or fills. Flame shapes as decoration. Vermilion fields behind text. Two bands. Gradients, glows, blur. Mono for a sentence.
+
+---
+
 ## Logo
 
 An upright match, already lit. Stick and flame, **no head**: the flame floats at the tip of the stick, which reads as a match that has caught rather than one waiting to be struck. Three flame colors outer to core (Vermilion, Amber, Core) and a Smoke stick.
@@ -316,6 +349,24 @@ The flame never recolors. Only the stick and the wordmark adapt to the ground.
 - **Minimum size.** Horizontal lockup 24px or 8mm tall. Stacked 44px or 14mm. Mark alone 16px or 5mm.
 - **Small marks simplify.** Below 32px the Core drops out. Below 20px the flame is one color. The favicon is the flame alone, no stick.
 - **Do not** bring back the head or the old coral, recolor the flame, tilt, stretch, add glow, shadow or gradient, set the wordmark in another face, place the mark inside a sentence, or box it on photography.
+
+---
+
+## Applications
+
+Each piece is built only from the rules above. If a new application needs a rule the system doesn't have, fix the system, not the piece.
+
+| Piece | Construction |
+|---|---|
+| Social post (1080 square) | Two templates, white and Soot. Label top left, headline in the middle (hot word allowed), horizontal lockup and domain at the foot. Soot is for beliefs and quotes, with the label in Amber. No imagery, no icons. |
+| Deck (16:9) | Cover: lockup top left, label and hot-word headline bottom left, date and "Confidential" in mono at the foot. Inside pages split five and seven: the page's one idea left, the numbered detail right. Mono footer with the page number. One Soot page per deck at most. |
+| Proposal (Letter) | Running header: lockup left, "Proposal · Client · page" in mono right. A label and H2 per section, Inter body at reading size with a generous measure, a hairline fact strip in place of a table. Domain bottom left, the ember bottom right, every page. |
+| Email signature | Plain HTML. Mark as a 28px PNG, name, role, email, site with a vermilion underline, then "Make an impression." in vermilion mono. No banner, no social icons, no legal paragraph. |
+| Business card (3.5 × 2 in) | Front white: horizontal lockup top left, ember top right, name and role bottom left, email and site bottom right. Back Soot: "Make an impression." centered, hot word. Uncoated stock, no finish. |
+
+**Lockup use.** Horizontal on stationery, email, the site nav and documents. Stacked on covers, social headers and the share card. Mark alone for avatars and favicons.
+
+**Title.** The role line on the card and in email is pending ("Senior brand strategist" is the placeholder).
 
 ---
 

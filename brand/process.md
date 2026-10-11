@@ -114,30 +114,50 @@ on the site.
 
 Purpose: a system, not a logo. The logo may already exist (Firebug's did).
 
-**3.1 Design principles.** Three or four sentences that translate the positioning into visual
-instructions. Every later choice is checked against them.
+**3.1 Design principles.** Three or four short lines that translate the positioning into
+visual instructions. Every later choice is checked against them. Firebug's: Heat, not warmth.
+Ink on a surface. One hot thing per screen. Senior, not slick.
 
 **3.2 Territories.** Two or three complete visual worlds, each obeying the principles
 differently: palette, type pairing, imagery idea, layout feel, shown as a moodboard plus a
 sample application (usually the home page hero). The client picks a world or a hybrid.
 (AI: generate the worlds as browser screens in hours, not weeks.)
 
-**3.3 The system**, element by element, inside the chosen world:
-- Logo system: mark, wordmark, lockups, clear space, minimum sizes, color variants, misuse
-- Color system: primary, secondary, neutral scale (paper to ink), functional colors, usage
-  proportions, accessible pairings, dark-surface treatment
-- Typography: faces, roles, scale, weights, pairing rules
-- Imagery: illustration or photography language, icon style
-- Graphic devices: motifs, rules, grid, spacing
-- Motion, if any
+**3.3 The system**, element by element, inside the chosen world, in this order. Each element is
+one screen with one question and a stated recommendation, so the client can answer in a word.
 
-**3.4 Applications.** The system on real things: home page, a social post, a deck cover, a
-proposal, an email signature, a card. This is the test; what fails here gets fixed in 3.3.
+1. Color: the ground, then the ink, then the accent. The ink generates the neutral scale, so it
+   is decided before anything is drawn in it. Then the usage rules: proportion, accent budget
+   per page, dark surfaces.
+2. Typography: faces and roles, then the full scale set in real copy at phone and desktop sizes.
+3. Logo system: mark, wordmark, lockups, clear space, minimum sizes, color versions, misuse,
+   and the list of files to produce. The mark is measured in its own unit so every rule is a
+   ratio, not a pixel.
+4. Graphic devices and grid: the rules, the motifs, the grid, the spacing scale, buttons, links,
+   fields, how images sit, and a don't list.
+5. Imagery: illustration or photography language. Motion, if any, is explored on its own after
+   the system is set, with a still fallback.
 
-**3.5 Guidelines and assets.** Brand guidelines rewritten; logo and template files regenerated.
+**3.4 Applications.** The system on real things: home page screens, a social post, a deck
+cover and inside page, a proposal page, an email signature, a card. This is the test, and the
+pass criterion is explicit: nothing on the sheet needed a rule the system didn't already have.
+What fails goes back to 3.3. Small conventions that emerge (template variants, where the page
+number sits) are recorded, not treated as failures.
 
-**Method note.** Explore whole worlds before refining single variables. Comparing four reds
-on one screen is refinement; it comes after the world is chosen, not before.
+**3.5 Guidelines and assets.** Brand guidelines rewritten; logo and template files regenerated
+from a single master (a script, not a folder of hand-edited files), so a change to the mark is
+one edit. A decision record sits beside the guidelines: every choice, what it was chosen over,
+and why.
+
+**Method notes.**
+- Explore whole worlds before refining single variables. Comparing four reds on one screen is
+  refinement; it comes after the world is chosen, not before. (Firebug's own run began with
+  single-variable comparisons and had to step back to principles and territories. The order
+  matters more than the speed.)
+- Every screen is a private web page the client can open on a phone. Decisions happen between
+  meetings, in a reply of one word.
+- Stage 3 for Firebug, from principles to applications with guidelines and assets, took one
+  working day of dialogue. The equivalent at a traditional firm is six to ten weeks.
 
 ---
 

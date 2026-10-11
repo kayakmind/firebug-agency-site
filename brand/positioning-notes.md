@@ -357,12 +357,16 @@ are confirmed by the territory choice and now refined inside it.
 | Mobile hero order | Text first (tagline, claim, lead, button), image second | 2026-10-10. The tagline is the first thing on screen. Desktop keeps C1. |
 | Logo system | Approved 2026-10-10 | Mark: stick + flame, no head, unit x = flame width (flame 1.8x tall, stick 3.5x, stick width 0.23x). Wordmark Space Mono 700, 0.18em, BUG always vermilion; "Agency" only as a descriptor. Three lockups: horizontal (mark 3 cap heights, 0.5x gap, baseline on stick foot), stacked (0.4x gap), mark alone (65% of frame). Clear space 1x. Minimums 24/44/16 px. Core drops below 32 px, one-color flame below 20 px, favicon is the flame alone. Four color versions; the flame never recolors; stick goes Ash on Soot. One-color white on a vermilion field settles the parked coral-background question. Files regenerated from `brand/logo/make-logos.js`. |
 | Stick | Smoke `#8E8A91` (Soot scale), Ash `#BDB9C1` on dark | Supersedes the Smoke `#8888AA` row above, which belonged to the Midnight scale. |
+| Grid and devices | Approved 2026-10-10 | Phone 4 col / 16 gutter / 20 margin; desktop 12 col / 24 gutter / 1200 max / 48 margin. Text never wider than 5 columns; hero image 7 columns bleeding right. Spacing base 4 (4 to 128); sections 96 desktop / 64 phone with a hairline. Devices: Hairline rule; the "ground" (1.5 px Soot line, once per page under the hero, with an ember at its end); the ember (7 px vermilion dot: active nav, current step, live item; the only icon in the system); vermilion mono label + two-digit numbers instead of icons; the hot word (last word of a Display/H1 line only); one full-bleed band with white headline and Ash body; three buttons (fill, outline, mono underline); links ink with vermilion underline; fields as a single hairline, vermilion on focus; images on white with no frame, bleed or grid-aligned, or a pull quote instead. No icons, no cards, no gradients, no decorative flames. |
+| Applications | Approved 2026-10-10 | Social (two templates, white and Soot, no imagery), deck (cover + 5/7 inside page, one Soot page max), proposal page (running header with page ref, fact strip, ember at foot), email signature (plain HTML, mark PNG, promise line in mono), business card (white front, Soot back with the promise). Nothing needed a new rule; three conventions added to BRAND.md. Stage 3 of the identity is complete; guidelines and assets are in BRAND.md and brand/logo. |
 
 Companion session files: `.superpowers/brainstorm/63135-1791583476/content/` (accent-color-v2,
 type, hero-layout-v3, territories, color-system). Remote-viewable artifacts (2026-10-10):
 type scale https://claude.ai/artifact/2rBeHRRkPLHmSUFiSfybMe · mobile screens (Home, What we do,
 About, Contact) https://claude.ai/artifact/Hw3cf1qaDk2EzwWKWdjjNK · logo system
-https://claude.ai/artifact/MAjuP7cGf4AsREC4kmgE4p
+https://claude.ai/artifact/MAjuP7cGf4AsREC4kmgE4p · devices and grid
+https://claude.ai/artifact/1DH5GsJCWU35xfu3SmNV87 · applications
+https://claude.ai/artifact/KdSvH5WuJ2mMiBMYbzULh4
 
 ## Candidate lines (not decided)
 
@@ -412,6 +416,7 @@ spread and momentum, not destruction. Logo at rest, hero in motion.
 
 ## Parked
 
+- Chris's title on the card and in email (placeholder: Senior brand strategist). Options: Founder; Principal; Senior brand strategist; Founder and brand strategist.
 - Hero figure as motion graphics / video (Chris, 2026-10-10): a short loop of the figure
   touching the match down and the fire taking off, instead of a static stencil. Explore after
   the identity system is set; decide format (SVG/Lottie animation vs rendered video), length,
