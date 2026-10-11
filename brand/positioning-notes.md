@@ -366,7 +366,20 @@ type scale https://claude.ai/artifact/2rBeHRRkPLHmSUFiSfybMe · mobile screens (
 About, Contact) https://claude.ai/artifact/Hw3cf1qaDk2EzwWKWdjjNK · logo system
 https://claude.ai/artifact/MAjuP7cGf4AsREC4kmgE4p · devices and grid
 https://claude.ai/artifact/1DH5GsJCWU35xfu3SmNV87 · applications
-https://claude.ai/artifact/KdSvH5WuJ2mMiBMYbzULh4
+https://claude.ai/artifact/KdSvH5WuJ2mMiBMYbzULh4 · brand guidelines (the whole guide, set in
+the identity) https://claude.ai/artifact/9MvRk2Apa746FiJyvFLGwM
+
+**Deliverable name.** "Firebug Brand Guidelines" (approved 2026-10-10). The standard top-firm
+deliverable is brand guidelines: strategy and messaging at the front, verbal identity, visual
+identity, applications, files, in one document. "Identity guidelines" names only the visual
+chapters. For a larger client the strategy splits out as its own stage 1 and 2 document.
+
+## Site decisions (stage 4, 2026-10-10)
+
+| Decision | Status | Notes |
+|---|---|---|
+| Sitemap | Approved 2026-10-10 | Four pages: Home `/`; What we do `/what-we-do` (301 from `/services`); About `/about`; Let's talk `/contact`. Nav: What we do · About · Let's talk (button). Footer: six disciplines, email, LinkedIn, copyright. `/snapshot` and `/assessment` retired (AI-named); their `submit-lead` API is reused by the contact form. Work/Proof page parked until there is proof. No pricing page. No privacy page yet. |
+| Home wireframe | Proposed 2026-10-10 | Seven blocks: 01 Hero (text first, figure second, ground with ember) · 02 Argument band (the one dark band) · 03 Four moments as numbered tiles, linking to What we do · 04 Range: "One story, told in every language" with six groups and shortened belief lines · 05 Proof, position reserved, empty at launch · 06 Close (shared component across pages) · 07 Footer. Open: moments section headline "If this is you, we should talk." (new line) vs label only; whether block 04 stays given the footer list. https://claude.ai/artifact/MtA7QPYEFWAmN6pZzqdhaU |
 
 ## Candidate lines (not decided)
 
