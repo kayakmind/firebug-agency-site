@@ -109,6 +109,8 @@ Never "first/then" language. Never "gap." "Reach" in headlines, "system" inside 
 
 ### The four moments (home page tiles, full copy on What we do)
 
+Section headline on Home and What we do: **If this is you, we should talk.** Label above it: "Where we start."
+
 **Something new is coming.** A company, a product, an initiative, a season. It needs a name people remember, a story people repeat, and a launch people notice. We build the brand and then put it in front of the right people, on the day it matters. *Underneath: brand strategy, identity, messaging, launch content, social.* *You walk away with: a brand that exists, and a launch that landed.*
 
 **You've changed. Your brand hasn't.** The work got better. The ambition got bigger. The logo, the language, and the website are still telling the old story. We bring how you look and sound up to who you've become, without losing what people already trust. *Underneath: brand audit, repositioning, identity refresh, messaging, website.* *You walk away with: a brand that matches your reality, and a plan for rolling it out.*
