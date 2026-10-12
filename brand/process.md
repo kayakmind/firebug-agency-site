@@ -167,7 +167,7 @@ Purpose: the website and the first applications, in the system.
 
 - Sitemap: pages and what each one is for, before any page is designed
 - Wireframes per page, approved one at a time
-- Design in the system
+- Design in the system. Two ways to run it: in code, one screen at a time (precise, slow to explore); or in a design canvas from a written brief that carries the whole system, with decisions coming back as values in the system. The brief is a deliverable in its own right: the job, the brand in one page, the fixed system, the pages, what to explore and in what order, deliverables, what's parked. Firebug used the second route after one literal render in code showed what the system produces on its own (`brand/design-brief.md`).
 - Build (for Firebug: Next.js on Vercel), with the brand tokens as code
 - Content loaded from the messaging platform, not rewritten
 
